@@ -1,0 +1,11 @@
+Single Port RAM
+
+Memory Depth : 16
+Data Width : 8 bits
+Address Width : 4 bits
+
+Write Operation:
+mem[addr] <= din
+
+Read Operation:
+dout <= mem[addr]
