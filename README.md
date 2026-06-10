@@ -27,3 +27,9 @@ waveforms/  Simulation results
 - Specifications defined
 - Architecture planned
 - RTL skeleton added
+
+### Day 2
+- Implemented memory array
+- Added write operation
+- Added read operation
+- Successfully compiled in ModelSim
