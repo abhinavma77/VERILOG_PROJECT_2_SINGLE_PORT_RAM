@@ -33,3 +33,32 @@ waveforms/  Simulation results
 - Added write operation
 - Added read operation
 - Successfully compiled in ModelSim
+
+- ## Project Overview
+
+This project implements a Single Port RAM using Verilog HDL.
+
+## Specifications
+
+- Data Width: 8 bits
+- Address Width: 4 bits
+- Memory Depth: 16 locations
+
+## Tool Used
+
+- ModelSim Intel FPGA Starter Edition
+
+## Verification Performed
+
+- Write AA to Address 3
+- Write 55 to Address 5
+- Read Address 3
+- Read Address 5
+- Write AA to Address 0
+- Write FF to Address 15
+- Read Address 0
+- Read Address 15
+
+## Simulation Waveform
+
+<img width="1918" height="1033" alt="Screenshot 2026-06-12 232542" src="https://github.com/user-attachments/assets/937bbe89-ea12-41f8-958a-5d74f1d62e23" />
